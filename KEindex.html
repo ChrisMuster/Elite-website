@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Knightsbridge Elite Group</title>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Keywords" content="luxury car hire rental sales concierge services knightsbridge london england property residences elite">
+
+    <!--Using w3.CSS CSS framework-->
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    
+	<link rel="stylesheet" type="text/css" href="styles/KEmaincss.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
+</head>
+<body>
+    <div id="pageTop"></div>
+<!-- Navbar (sit on top) -->
+        <div class="w3-top">
+            <div class="w3-bar w3-white w3-card-2" id="myNavbar">
+                <a href="./KEindex.html" class="w3-bar-item w3-button w3-wide w3-xlarge w3-hover-none logo"><strong>Knightsbridge Elite Group</strong></a>
+
+            <!-- Right-sided navbar links -->
+                <div class= "w3-right w3-wide borderColor phoneNum">
+                    <a href="./KE-ContactUs.html" class="w3-bar-item w3-hover-theme phoneNav"><i class="fa fa-phone w3-hover-theme"></i>(+44) 7545 244 202</a>
+                </div>
+                <div class="w3-right w3-wide borderColor navLinks">
+                    <a href="./KEindex.html" class="w3-bar-item w3-button w3-hover-theme">Home</a>
+                    <a href="./KE-AboutUs.html" class="w3-bar-item w3-button w3-hover-theme"></i> About</a>
+                    <a href="./KE-ContactUs.html" class="w3-bar-item w3-button w3-hover-theme"></i> Contact</a>
+                </div>
+           
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+                <a href="javascript:void(0)" class="w3-dropdown-click w3-button w3-right borderColor w3-hover-theme menuBar" onclick="w3_open()">
+                    <i class="fa fa-bars"></i>
+                </a>
+
+                <div id="myDropnav" class="w3-dropdown-content w3-right w3-bar-block">
+                    <a href="./KEindex.html" class="w3-bar-item w3-button w3-margin-0 w3-hover-theme">Home</a>
+                    <a href="./KE-AboutUs.html" class="w3-bar-item w3-button w3-margin-0 w3-hover-theme">About</a>
+                    <a href="./KE-ContactUs.html" class="w3-bar-item w3-button w3-margin-0 w3-hover-theme">Contact</a>
+              </div>
+
+            </div>
+        </div>
+
+    <!--Create manual slideshow-->
+    <div class="w3-content w3-display-container w3-card-4 slideMargin">
+
+        <a class="w3-btn w3-hover-theme w3-display-left leftChev" id="chev1" onclick="plusDivs(-1)"><i class="fa fa-chevron-left"></i></a>
+        <a class="w3-btn w3-hover-theme w3-display-right rightChev" id="chev2" onclick="plusDivs(1)"><i class="fa fa-chevron-right"></i></a>
+
+        <div class="w3-display-container mySlides">
+            <img src="./images/Mercedes1.jpg" alt="Mercedes" style="width:100%">
+            <div class="w3-display-bottomleft w3-large w3-container w3-padding-4 w3-black w3-theme photoSlide">
+                <a href="./KE-MayfairHire.html"><p>Luxury Car Rental</p></a>
+            </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+            <img src="./images/Interior1.jpg" alt="Luxury Residence" style="width:100%">
+            <div class="w3-display-bottomleft w3-large w3-container w3-padding-4 w3-black w3-theme photoSlide">
+                <a href="./KE-EliteResidences.html"<p>Elite residences</p></a>
+            </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+            <img src="./images/Concierge1.jpg" alt="Concierge bell" style="width:100%">
+            <div class="w3-display-bottomleft w3-large w3-container w3-padding-4 w3-black w3-theme photoSlide">
+                <a href="./KE-ConciergeService.html"><p>Concierge Services</p></a>
+            </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+            <img src="./images/chauffeur1.jpg" alt="Chauffeur" style="width:100%">
+            <div class="w3-display-bottomleft w3-large w3-container w3-padding-4 w3-black w3-theme photoSlide">
+                <a href="./KE-MayfairHire.html"><p>Chauffeur Services</p></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="welcome"></div>
+    <!--Create link to point to services downscreen-->
+    <div class="serviceArrow">
+        <div class="w3-container w3-card-4 borderColor w3-white w3-text-black w3-hover-theme service">
+            <a href="#welcome"><h3>Services</h3>
+            <i class="fa fa-arrow-down"></i></a>
+        </div>
+    </div>
+
+    <!--Welcome banner or slogan goes here-->
+    <div class="w3-container borderColor w3-transparent w3-text-black welcomeBanner">
+        <h1>Welcome to Knightsbridge Elite's luxury lifestyle services</h1>
+    </div>
+
+    <!--Create photo grid with info and links-->
+    <div class="w3-row-padding w3-transparent photoLinks">
+
+        <div class="w3-third w3-display-container w3-margin-top minmaxPicSize">
+            <a href="./KE-VirtusandHonus.html">
+                <img src="./images/dealership1.jpg" alt="Luxury car dealership" class="w3-hover-opacity" style="width:100%">
+            </a>
+
+            <div class="w3-display-topleft">
+                <a href="./KE-VirtusandHonus.html" class="w3-btn w3-theme photoTopButton">Virtus &amp; Honus</a>
+            </div>
+
+            <div class="w3-container w3-transparent w3-display-middle w3-display-hover">
+                <a href="./KE-VirtusandHonus.html" class="w3-btn w3-theme w3-animate-opacity midPicButton">Luxury car dealership</a>
+            </div>
+        </div>
+
+        <div class="w3-third w3-display-container w3-margin-top minmaxPicSize">
+            <a href="./KE-MayfairHire.html">
+                <img src="./images/chauffeur1.jpg" alt="Chauffeur" class="w3-hover-opacity" style="width:100%">
+            </a>
+
+            <div class="w3-display-topleft">
+                <a href="./KE-MayfairHire.html" class="w3-btn w3-theme photoTopButton">Mayfair Hire</a>
+            </div>
+
+            <div class="w3-container w3-transparent w3-display-middle w3-display-hover">
+                <a href="./KE-MayfairHire.html" class="w3-btn w3-theme w3-animate-opacity midPicButton">Chauffeur or<br>Luxury Self-Hire cars</a>
+            </div>
+        </div>
+
+        <div class="w3-third w3-display-container w3-margin-top minmaxPicSize">
+            <a href="./KE-EliteResidences.html">
+                <img src="./images/Interior1.jpg" alt="Luxury Residence" class="w3-hover-opacity" style="width:100%">
+            </a>
+
+            <div class="w3-display-topleft">
+                <a href="./KE-EliteResidences.html" class="w3-btn w3-theme photoTopButton">Elite Residences</a>
+            </div>
+
+            <div class="w3-container w3-transparent w3-display-middle w3-display-hover">
+                <a href="./KE-EliteResidences.html" class="w3-btn w3-theme w3-animate-opacity midPicButton">Luxury Property Lettings</a>
+            </div>
+        </div>
+
+        <div class="w3-third w3-display-container w3-margin-top w3-margin-bottom minmaxPicSize">
+            <a href="./KE-ConciergeService.html">
+                <img src="./images/Concierge1.jpg" alt="Concierge bell" class="w3-hover-opacity" style="width:100%">
+            </a>
+
+            <div class="w3-display-topleft">
+                <a href="./KE-ConciergeService.html" class="w3-btn w3-theme photoTopButton">Concierge Services</a>
+            </div>
+
+            <div class="w3-container w3-transparent w3-display-middle w3-display-hover">
+                <a href="./KE-ConciergeService.html" class="w3-btn w3-theme w3-animate-opacity midPicButton">Personal attention from<br> your own Concierge.</a>
+            </div>
+        </div>
+
+        <div class="w3-third w3-display-container w3-margin-top w3-margin-bottom minmaxPicSize">
+            <a href="./KE-BelonaProject.html">
+                <img src="./images/GwagonBlack.jpg" alt="G-Wagon" class="w3-hover-opacity" style="width:100%">
+            </a>
+
+            <div class="w3-display-topleft">
+                <a href="./KE-BelonaProject.html" class="w3-btn w3-theme photoTopButton">Belona Project</a>
+            </div>
+
+            <div class="w3-container w3-transparent w3-display-middle w3-display-hover">
+                <a href="./KE-BelonaProject.html" class="w3-btn w3-theme w3-animate-opacity midPicButton">Coming Soon</a>
+            </div>
+        </div>
+
+        <div class="w3-third w3-display-container w3-margin-top w3-margin-bottom minmaxPicSize">
+            <img src="./images/PlainBlack.jpg" alt="Black Background Photo" style="width:100%">
+
+            <div class="w3-display-topleft">
+                <a href="#" class="w3-btn w3-theme photoTopButton">Like us on Social Media</a>
+            </div>
+
+            <div class="w3-display-middle">
+                
+                    <a href="#"><i class="fa fa-facebook-square w3-theme w3-fb-hover-theme homeFB"></i></a>
+                
+                    <a href="#"><i class="fa fa-instagram w3-theme w3-ig-hover-theme homeIG"></i></a>
+                
+            </div>       
+        </div>
+    </div>
+
+    <div class="w3-container borderColor w3-transparent w3-text-black LowerBanner">
+        <h3>Placeholder text</h3>
+        <p>Knightsbridge Elite Group is the umbrella company for a number of small and medium businesses. The businesses include Property Related Services, National Chauffeur Services, Prestige Car Hire, a Luxury Car Dealership, Concierge Services, and new projects coming soon.</p>
+    </div>
+
+    <!--Set up footer with links, copyright and sitemap-->
+    <footer class="w3-container w3-margin-top w3-black">
+        <div class="w3-container w3-black w3-tiny borderWideGold">
+            <div class="w3-container w3-center swirlPicTop">
+                <img src="./images/SmallInvertedGoldSwirl.png" alt="Gold Swirl">
+            </div>
+
+            <h5>Footer</h5>
+            <a href="#welcome">Back to Services</a>
+            <a href="#pageTop">Back to Top</a>
+            <p>Website copyright Knightsbridge Elite Group &copy; | Website Design by <a href="#">Chris Muster Web Design</a></p>
+
+            <div class="w3-container w3-center swirlPicBottom">
+                <img src="./images/SmallGoldSwirl.png" alt="Gold Swirl">
+            </div>
+        </div>
+    </footer>
+
+    <!--Javascript to toggle drop menu on and off-->
+    <script>
+        var x = document.getElementById("myDropnav");
+        function w3_open() {
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+    <!--JS to run manual slideshow-->
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+
+</body>
+</html>

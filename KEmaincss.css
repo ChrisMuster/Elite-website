@@ -1,0 +1,262 @@
+body {
+	background-image: url("../images/BigPaleWhiteDamask.png");
+	background-size: cover;
+	background-repeat: repeat;
+	background-color: #FFF;
+	font-family: "Segoe UI", Arial, sans-serif !important;
+}
+
+/*navigation links start*/
+.w3-top {
+	background-color: #FFF;
+	z-index: 2 !important;
+}
+
+a.w3-bar-item.logo {
+	padding-left: 10px !important;
+	padding-right: 0px !important;
+}
+
+@media screen and (max-width: 992px) {
+	.phoneNum {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.navLinks {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 721px) {
+	.menuBar {
+		display: none;
+	}
+	#myDropnav.w3-dropdown-content {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 472px) {
+		a.w3-bar-item.logo {
+			width: 70%;
+			overflow: visible;
+		}
+		.photoSlide {
+			font-size: 15px !important;
+			padding: 4px 8px 4px 8px !important;
+		}
+		.photoSlide p {
+			margin: 0px !important;
+		}
+	}
+
+@media screen and (max-width: 288px) {
+		a.w3-bar-item.logo {
+			width: 70%;
+			overflow: visible;
+			font-size: 21px !important;
+		}
+	}
+
+.navLinks {
+	margin: 8px 0 8px 0 !important;
+}
+
+.phoneNum {
+	margin: 8px 14px 8px 0 !important;
+}
+
+.navLinks, .phoneNum a {
+	font-weight: bold;
+	text-decoration: none;
+    text-align: center;
+}
+
+a.menuBar {
+	margin: 8px 8px 8px 0px;
+}
+
+#myDropnav {
+	max-width: 120px !important;
+	min-width: 90px !important;
+	right: 0;
+	border-bottom: 3px solid #a78b2c;
+	margin-top: 60px;
+	margin-right: 8px;
+}
+
+#myDropnav a {
+	text-align: center;
+	font-weight: bold;
+	border-top: 3px solid #a78b2c;
+}
+
+/*navigation links end*/
+
+.borderColor {
+	border-top: 3px solid #a78b2c;
+	border-bottom: 3px solid #a78b2c;
+}
+
+.borderColorBlack {
+	border-top: 3px solid black;
+}
+
+.w3-hover-noborder:hover {
+	color: #fff !important; 
+	background-color: #a78b2c !important;
+	font-weight: bold !important;
+}
+
+.w3-hover-theme:hover {
+	color: #fff !important; 
+	background-color: #a78b2c !important;
+	font-weight: bold !important;
+	opacity: 1;
+	/*border-top: 3px solid #a78b2c !important;*/
+}
+
+#chev1:hover, #chev2:hover {
+	border-top: 1.5px solid #a78b2c !important;
+	border-bottom: 1.5px solid #a78b2c !important;
+}
+
+.w3-border-theme {
+	border: 2px solid #a78b2c !important;
+}
+
+.w3-theme {
+	color: #a78b2c !important;
+}
+
+.slideMargin {
+	margin-top: 60px !important;
+	max-width: 1280px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides p {
+	margin: 8px 0px 8px 0px;
+}
+
+.mySlides a {
+	text-decoration: none;
+}
+
+.leftChev, .rightChev {
+	z-index: 1;
+	color: white;
+	font-size: 24px;
+	border-top: 1.5px solid black;
+	border-bottom: 1.5px solid black;
+	opacity: 0.50;
+}
+
+.serviceArrow {
+	margin: 15px 0px 7px 0px;
+	padding-bottom: 8px;
+}
+
+.serviceArrow a {
+	text-decoration: none
+}
+
+.w3-container.service {
+	text-align: center;
+    font-size: 18px;
+    margin: auto;
+    max-width: 125px;
+    max-height: 64px;
+    border-radius: 5px;
+    padding-right: 0.18px;
+    padding-left: 0.18px;
+}
+
+.w3-container.service h3 {
+	margin: -3px 0 0 0;
+	padding-bottom: 0px;
+	width: 100%;
+}
+
+.w3-container.service i {
+	margin: 0 0 3px 0;
+	width: 100%;
+	padding-top: 5px;
+}
+
+.welcomeBanner {
+	text-align: center;
+}
+
+.photoLinks {
+	max-width: 1000px;
+	margin: auto;
+}
+
+.w3-btn.photoTopButton {
+	padding: 6px 8px 6px 8px !important;
+	margin-left: 8px;
+	/*font-weight: bold;*/
+}
+
+.w3-btn.midPicButton {
+	/*font-weight: bold;*/
+	border-radius: 5px;
+}
+
+.minmaxPicSize {
+	max-width: 400px !important;
+	min-width: 265px !important;
+	max-height: 215px !important;
+	min-height: 140px !important;
+}
+
+.fa.fa-facebook-square.homeFB {
+	font-size: 6em; 
+	float:left; 
+	margin: 0px 20px 0px -40px;
+}
+
+.w3-fb-hover-theme:hover {
+	color: #3b5998 !important; 
+}
+
+.fa.fa-instagram.homeIG {
+	font-size: 6em; 
+	float: right; 
+	margin: 0px -40px 0px 20px
+}
+
+.w3-ig-hover-theme:hover {
+	color:#8444be !important;
+}
+
+.LowerBanner {
+	min-height: 100px;
+}
+
+footer {
+	padding: 0.150px 0px 0.150px 0px !important;
+}
+
+.borderWideGold {
+	border-top: 4px solid #a78b2c;
+	border-bottom: 4px solid #a78b2c;
+	margin: 10px 0px !important;
+}
+
+.swirlPicTop {
+	/*border: 1px solid white;
+	max-height: 60px;
+	position: relative;*/
+}
+
+.swirlPicBottom {
+	margin-bottom: 1px;
+	/*border: 1px solid white;
+	max-height: 60px;
+	position: relative;*/
+}
